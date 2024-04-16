@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var i, j;
+      for (i = 1; i <= 15; i++) {
+        for (j = 1; j <= i; j++) {
+          document.write("*");
+        }
+        document.write("<br />");
+      }
+      document.write("Look at CONSOLE");
+      console.log("STARS");
+      console.log("--------------------");
+      console.log("Upper left triangle");
+      let n1 = 5;
+      for (let i = 1; i <= n1; i++) {
+        let str = "* ";
+        console.log(str.repeat(i));
+      }
+      console.log("--------------------");
+      console.log("Upper right triangle");
+      let n2 = 5;
+      for (let i = 1; i <= n2; i++) {
+        let str = "* ";
+        let space = "  ";
+        console.log(space.repeat(n2 - i) + str.repeat(i));
+      }
+      console.log("--------------------");
+      console.log("Lower Right Triangle");
+      let n3 = 5;
+      for (let i = n3; i >= 1; i--) {
+        let str = "* ";
+        let space = "  ";
+        console.log(space.repeat(n3 - i) + str.repeat(i));
+      }
+      console.log("--------------------");
+      console.log("Lower Left Triangle");
+      let n4 = 5;
+      for (let i = n4; i >= 1; i--) {
+        let str = "* ";
+        console.log(str.repeat(i));
+      }
+      console.log("--------------------");
+      console.log("YOOOHOOO");
+      let str5 = "";
+      let y = 10;
+      let x = 10;
+
+      for (let i = 1; i < y; i++) {
+        for (let j = 1; j < x; j++) {
+          if (i <= y / 2 && j >= y / 2 - (i - 1) && j <= y / 2 + (i - 1)) {
+            str5 = str5.concat("*");
+          } else if (
+            i >= y / 2 &&
+            j > (y / 2 - i) * -1 &&
+            j < y - (y / 2 - i) * -1
+          ) {
+            str5 = str5.concat("*");
+          } else {
+            str5 = str5.concat(" ");
+          }
+        }
+        str5 = str5.concat("\n");
+      }
+
+      console.log(str5);
+    </script>
+  </body>
+</html>
