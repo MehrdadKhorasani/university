@@ -13,9 +13,14 @@ def min_max(arr, low, high):
         min1, max1 = min_max(arr, low, mid)
         min2, max2 = min_max(arr, mid + 1, high)
 
-        return min(min1, min2), max(max1, max2)
+        # using build-in function min() & max()
+        # return min(min1, min2), max(max1, max2) 
 
-# Example usage:
+        overall_min = min1 if min1 < min2 else min2
+        overall_max = max1 if max1 > max2 else max2
+        return overall_min, overall_max
+
+
 arr = [12, 5, 7, 9, 4, 6]
 min_num, max_num = min_max(arr, 0, len(arr) - 1)
 print("Minimum number:", min_num)
