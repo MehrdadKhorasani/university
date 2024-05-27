@@ -1,0 +1,41 @@
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.DecreaseBalanceForm.resources
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.Form1.resources
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.IncreaseBalanceForm.resources
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.AddUserForm.resources
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.TransferBalanceForm.resources
+C:\Users\Administrator\Desktop\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.exe
+C:\Users\Administrator\Desktop\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.deps.json
+C:\Users\Administrator\Desktop\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.runtimeconfig.json
+C:\Users\Administrator\Desktop\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.dll
+C:\Users\Administrator\Desktop\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.pdb
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.dll
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\refint\BankApp.dll
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.pdb
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\BankApp\BankApp\obj\Debug\net8.0-windows\ref\BankApp.dll
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.exe
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.deps.json
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.runtimeconfig.json
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.dll
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\bin\Debug\net8.0-windows\BankApp.pdb
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.AddUserForm.resources
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.DecreaseBalanceForm.resources
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.Form1.resources
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.IncreaseBalanceForm.resources
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.TransferBalanceForm.resources
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.sourcelink.json
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.dll
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\refint\BankApp.dll
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.pdb
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\BankApp.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\BankApp\BankApp\obj\Debug\net8.0-windows\ref\BankApp.dll
