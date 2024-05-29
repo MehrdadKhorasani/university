@@ -15,3 +15,21 @@ C:\Users\Administrator\Desktop\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.pdb
 C:\Users\Administrator\Desktop\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\AtmApp\AtmApp\obj\Debug\net8.0-windows\ref\AtmApp.dll
 C:\Users\Administrator\Desktop\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.LoginForm.resources
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\bin\Debug\net8.0-windows\AtmApp.exe
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\bin\Debug\net8.0-windows\AtmApp.deps.json
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\bin\Debug\net8.0-windows\AtmApp.runtimeconfig.json
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\bin\Debug\net8.0-windows\AtmApp.dll
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\bin\Debug\net8.0-windows\AtmApp.pdb
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.LoginForm.resources
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.MainForm.resources
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.sourcelink.json
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.dll
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\refint\AtmApp.dll
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.pdb
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\AtmApp.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\university\First Semester\Game Making\Bank Application\AtmApp\AtmApp\obj\Debug\net8.0-windows\ref\AtmApp.dll
