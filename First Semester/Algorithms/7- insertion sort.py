@@ -9,7 +9,7 @@ def insertionSort(arr):
             j -= 1
         arr[j + 1] = key
 
-arr = [9, 3, 7, 1, 5, 6, 2, 4, 8]
-insertionSort(arr)
-print(arr)
+array = [9, 3, 7, 1, 5, 6, 2, 4, 8]
+insertionSort(array)
+print(array)
 
