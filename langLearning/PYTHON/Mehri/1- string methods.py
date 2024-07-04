@@ -1,10 +1,35 @@
-str1 = "hello welcome to python"
-# Methods
+# length of a string:
+str1="hello welcome to python"
+#[start:end:step=1]
+print(str1[0])
+print(str1[4])
+print(str1[-1])
+lenght=len(str1)
+print(lenght)
+print(str1[lenght-1])
+print(str1[0:3])
+print(str1[0:7])
+print(str1[10:])
+print(str1[:])
+print(str1[-6:])
+print(str1[:15:2])
+print(str1[::4])
+print(str1[-1::-1])
+print(str1[-10::-1])
+
+
+##### Methods
+
+### uppercase:
 str1= str1.upper()
+### lowercase:
 str1= str1.lower()
+### Capitalize:
 str1= str1.capitalize()
+### title
 str1= str1.title()
 # str1= str1.center()
+# print(str1.center(80,"*"))
 print(str1)
 
 
