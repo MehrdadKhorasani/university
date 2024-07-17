@@ -54,7 +54,3 @@ else: # !!!!!!!!
 # else in for loop is just in python
   print(f"finished") 
 print(all_data)
-
-
-
-### WHILE
