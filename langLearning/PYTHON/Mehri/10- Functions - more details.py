@@ -77,3 +77,23 @@ from math import sqrt
 numbers = [103,25,64,81]
 result = list(map(sqrt,numbers))
 print(result) # [10.14889156509222, 5.0, 8.0, 9.0]
+
+
+# lambda functions are made to be passed into a higer-order function.
+# a higher-order function is a function that can either:
+# 1. take in another fn as an input
+# 2. or return a function as an output
+# 3. or both.
+
+#example 7:
+# re-write the map function by myself:
+nums = [3,4,5,6,7]
+def my_map(my_fn, my_iter):
+  result = []
+  for item in my_iter:
+    new_item = my_fn(item)
+    result.append(new_item)
+  return(result)
+cubed = my_map(lambda x: x** 3,nums)
+print(cubed)
+# now the my_map is a higher-order fn 
