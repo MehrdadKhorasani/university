@@ -41,11 +41,16 @@ print(f"sum numbers:{sum_lists(a,b)}")
 # sum numbers:[110, 20, 9, 33]
 
 
-##### nameless functions (lambda) & map function
+##### anonymous function
+# nameless functions (lambda) & map function
 # example 1:
 squar= lambda x:x**2
 print(squar(10)) # 100
 print(squar(3)) # 9
+
+# example 1.5:
+# the whole point is the function be anonymous. so:
+print((lambda x,y:x+y)(3,4))
 
 # example 2:
 add = lambda x,y:x+y
