@@ -66,3 +66,31 @@ def power():
       print("the end")
       return
 power()
+
+
+# example 8:
+def calculator():
+  operator = ["+", "-", "*", "/"]
+  while True:
+    try:
+      number1 = float(input("enter your first number: "))
+      number2 = float(input("enter your second number: "))
+      op = input("select an operator (+,-,*,/): ")
+    except ValueError as e:
+      print(f"please enter a valid input. {e}")
+      continue
+    else:
+      if op in operator: 
+        if op == "+": print(f"sum is {number1 + number2}")
+        elif op == "-": print(f"subtract is {number1 - number2}")
+        elif op == "*": print(f"multiply is {number1 * number2}")
+        elif op == "/":
+          try: print(f"division is {number1 / number2}")
+          except ZeroDivisionError as e: print("could not division by zero!")
+        break
+      else: 
+        print("please enter a valid operator")
+        continue
+    finally: 
+      print("**********")
+calculator()
