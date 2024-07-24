@@ -97,3 +97,20 @@ def my_map(my_fn, my_iter):
 cubed = my_map(lambda x: x** 3,nums)
 print(cubed)
 # now the my_map is a higher-order fn 
+
+
+# example 8:
+def showUserInfo(**kwargs):
+  # print(kwargs)
+  if len(kwargs) > 0:
+    for item in kwargs:
+      print(item) # name
+      print(kwargs[item]) # nima
+    for k,v in kwargs.items():
+      print(k,":",v) # name : nima
+  else: print("value not found, kwargs is empty")
+
+user = {"name":"nima","family":"kamali"}
+showUserInfo()
+showUserInfo(name="nima",family="ahmadi")
+showUserInfo(name="nima",family="ahmadi",phone= 978564654,email="nima@gmail.com")
