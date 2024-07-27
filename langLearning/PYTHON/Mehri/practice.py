@@ -45,3 +45,66 @@ def triangle():
       print("********")
 triangle()
 """
+
+"""
+from datetime import datetime, timedelta
+
+def calculate_birthdate(years, months, days):
+    today = datetime.today()
+    birthdate = today - timedelta(days=days) - timedelta(days=months*30) - timedelta(days=years*365)
+    return birthdate
+
+years = int(input("Please enter your age in years: "))
+months = int(input("Please enter the number of additional months: "))
+days = int(input("Please enter the number of additional days: "))
+
+birthdate = calculate_birthdate(years, months, days)
+
+print(f"Your birthdate is: {birthdate.strftime('%Y-%m-%d')}")
+"""
+
+"""
+def get_student_info():
+    students = []
+    for i in range(10):
+        print(f"Enter details for student {i+1}:")
+        student_id = input("Student ID: ")
+        first_name = input("First Name: ")
+        last_name = input("Last Name: ")
+        average = input("Average: ")
+        student = [student_id, first_name, last_name, average]
+        students.append(student)
+    return students
+
+def write_user_info(students):
+    with open("students.txt", "w", encoding="utf-8") as myfile:
+        for student in students:
+            line = ",".join(student) + "\n"
+            myfile.write(line)
+
+def read_user_info():
+    students = []
+    with open("students.txt", "r", encoding="utf-8") as myfile:
+        for line in myfile:
+            student = line.strip().split(',')
+            students.append(student)
+    return students
+
+def display_students(students):
+    count = 1
+    for student in students:
+        student_id, first_name, last_name, average = student
+        print(f"Student {count}:")
+        print(f"  Student ID: {student_id}")
+        print(f"  Name: {first_name} {last_name}")
+        print(f"  Average: {average}\n")
+        count += 1
+
+students = get_student_info()
+
+write_user_info(students)
+
+loaded_students = read_user_info()
+
+display_students(loaded_students)
+"""
