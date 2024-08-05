@@ -33,7 +33,7 @@ int main()
   printf("\n%f", result2); // 4.400000
 
   // POLYNOMIAL:
-  int p = 3.22;
+  float p = 3.22;
   // float z = p ^ 3 * 5 + 4 * p - 7;
   float z = (p * p * p) * 5 + 4 * p - 7;
   printf("\n%f", z);
