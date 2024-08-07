@@ -41,5 +41,43 @@ int main()
   char k_character = value;
   printf("\n%c", k_character); //=> k
   */
-  return 0;
+  /*
+  //// Standard Input & Output:
+  //// printf learned.
+  //// SCANF:
+  int a;
+  scanf("%d", &a);
+  a *= 3;
+  printf("%d",a);
+  //// PUTS
+  // just for a string. cannot get more than one argument:
+  puts("\nHello, World!!");
+  //// GETCHAR
+  char word = getchar();
+  printf("%c", word);
+  */
+  /*
+  //// example: get a char from input and display the character, ascii code and the character after two:
+  char character;
+  puts("enter a single character:");
+  character = getchar();
+  printf("%c , %d , %c", character, character, character + 2);
+  // <= a // => a , 97 , c  */
+  /*
+  //// CODING CHALLENGE 1:
+  int r;
+  int pi = 3;
+  scanf("%d", &r);
+  printf("Perimeter = %d, Area = %d\n", 2 * r * pi, r * r * pi);
+  //// CODING CHALLENGE 2:
+  char character;
+  character = getchar();
+  printf("%d\n", character);
+  //// CODING CHALLENGE 3:
+  char character;
+  character = getchar();
+  printf("%c\n", character + 32);
+  */
+
+  return 0;
 }
