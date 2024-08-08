@@ -78,6 +78,39 @@ int main()
   character = getchar();
   printf("%c\n", character + 32);
   */
-
+  /*
+  //// Operators:
+  // + - * / %
+  // += -= *= /= %=
+  // ++ --
+  //1
+  int a = 10;
+  int b = 5;
+  int c = a += b;
+  printf("%d , %d , %d\n", c , a , b); // 15 , 15 , 5
+  //2
+  int d, e ,f;
+  d = 12;
+  e = f = d;
+  printf("%d , %d , %d", d , e , f); // 12 , 12 , 12
+  //3
+  int g = 10;
+  printf("%d\n", g++); // 10
+  printf("%d\n", ++g); // 12
+  printf("%d\n", g--); // 12
+  printf("%d\n", --g); // 10
+  //4
+  int h = 8;
+  int k = 8;
+  int i = h++;
+  int j = ++k;
+  printf("%d\n", i); // 8
+  printf("%d\n", j); // 9
+  //5
+  float number = 3 / 2;
+  printf("%f\n", number); // 1.000000
+  float number2 = 3 / 2.0;
+  printf("%f\n", number2); // 1.500000
+  */
   return 0;
 }
