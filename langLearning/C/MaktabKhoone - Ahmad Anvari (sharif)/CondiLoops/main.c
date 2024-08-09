@@ -205,6 +205,32 @@ int main()
   }
   printf("max number is %d\n",max);
   printf("min number is %d\n",min);
+
+  //// CODING CHALLENGE 3
+  int rows , value = 1;
+
+  puts("How Many Rows do you want?");
+  scanf("%d", &rows);
+
+  for(int i = 0; i < rows; i++)
+  {
+
+    for (int space = 0; space <= rows - i - 1; space++)
+    {
+      printf(" ");
+    }
+
+    for(int j = 0; j <= i; j++)
+    {
+      if(j==0||i==0)
+        value = 1;
+      else
+        value = value * (i - j + 1) / j;
+      printf("%d ", value);
+    }
+
+    printf("\n");
+  }
   */
   return 0;
 }
