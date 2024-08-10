@@ -231,6 +231,47 @@ int main()
 
     printf("\n");
   }
+
+  //// CODING CHALLENGE 4
+  int a, b, min;
+  puts("Enter two Numbers:");
+  scanf("%d", &a);
+  scanf("%d", &b);
+
+  if(a < b)
+    min = a;
+  else
+    min = b;
+
+  printf("Result: ");
+
+  for(int i = 1; i <= min; i++) {
+    if (a % i == 0 && b % i == 0) {
+        printf("%d ", i);
+    }
+  }
+
+  printf("\n");
+
+  //// CODING CHALLENGE 5
+  for(int row = 1; row <= 7; row++){
+    for(int space = row; space <= 7; space++){
+      printf(" ");
+    }
+    for(int star = 1; star <= row; star++){
+      printf("* ");
+    }
+    printf("\n");
+  }
+  for(int row = 1; row <= 6; row++){
+    for(int space = row; space >= 0; space--){
+      printf(" ");
+    }
+    for(int star = 6; star >= row; star--){
+      printf("* ");
+    }
+    printf("\n");
+  }
   */
   return 0;
 }
