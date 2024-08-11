@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
@@ -273,5 +274,27 @@ int main()
     printf("\n");
   }
   */
+  /*
+  //// STANDARD LIBRARIES
+  // POW function => math library
+  int base, power;
+  scanf("%d", &base);
+  scanf("%d", &power);
+  int result = pow(base,power);
+  printf("%d", result);
+  // sqrt function => math library
+  int a, b;
+  scanf("%d", &a);
+  scanf("%d", &b);
+  double res = sqrt(pow(a,2) + pow(b,2));
+  printf("the third side of triangle is: %lf", res);
+  */
+  //// Coding Challenge for LIBs
+  // f(x)= sin^2(x) + cos^2(x)
+  double x;
+  scanf("lf",&x);
+  double result = pow(sin(x),2) + pow(cos(x),2);
+  printf("%lf", result);
+
   return 0;
 }

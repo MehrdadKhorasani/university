@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1723228682 source:c:\users\administrator\desktop\university\langlearning\c\maktabkhoone - ahmad anvari (sharif)\condiloops\main.c
+1723368190 source:c:\users\administrator\desktop\university\langlearning\c\maktabkhoone - ahmad anvari (sharif)\condiloops\main.c
 	<stdio.h>
 	<stdlib.h>
+	<math.h>
 
