@@ -108,3 +108,83 @@ loaded_students = read_user_info()
 
 display_students(loaded_students)
 """
+
+"""
+#Volume of a rectangular cube
+class rec_cube(object):
+  
+  def __init__(self,length, width, height):
+    self.l = length
+    self.w = width
+    self.h = height
+
+  def calc_rec_cube(self):
+   volume = self.l * self.h * self.w
+   print(f"the volume of your rectangle is {volume}")
+  
+print("type the length of rectangle:")
+length = int(input())
+
+print("type the width of rectangle:")
+width = int(input())
+
+print("type the height of rectangle:")
+height = int(input())
+
+rec1 = rec_cube(length, width, height)
+rec1.calc_rec_cube()
+"""
+
+
+"""
+# cylinder volume
+from math import pi, pow
+
+class cylinder_vol:
+  def __init__(self, radius, height):
+    self.r = radius
+    self.h = height
+  
+  def calc_cylinder_vol(self):
+    volume = pi * pow(self.r,2) * self.h
+    print(f"the volume of your cylinder is {volume}")
+
+print("type the radius of cylinder:")
+radius = int(input())
+
+print("type the height of cylinder:")
+height = int(input())
+
+cyl1 = cylinder_vol(radius, height)
+cyl1.calc_cylinder_vol()
+"""
+
+
+"""
+# Dictionary English to Persian
+class Dictionary():
+  def __init__(self):
+    self.dictionary = []
+
+  def add_word(self, english_word, persian_translation):
+    self.dictionary.append({english_word, persian_translation})
+    print(f"The word '{english_word}' added to your dictionary. It means '{persian_translation}' in Persian.")
+  
+  def translate(self, english_word):
+    for word, translation in self.dictionary:
+      if word == english_word: return translation
+    return "Word not found"
+
+  def print_dictionary(self):
+    print(self.dictionary)
+
+dict1 = Dictionary()
+dict1.add_word("Apple", "سیب")
+dict1.add_word("Tree", "درخت")
+dict1.add_word("Human", "انسان")
+
+print(dict1.translate("Apple"))
+print(dict1.translate("Dress"))
+
+dict1.print_dictionary()
+"""
