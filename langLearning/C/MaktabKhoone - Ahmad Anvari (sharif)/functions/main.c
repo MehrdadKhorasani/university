@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
+
+
 /*
 //// SELF CODING CHALLENGE: SUM FUNCTION:
 int sum(nums){
@@ -81,8 +84,106 @@ int main()
 }
 */
 
+/*
+//// find the max value and the second max value:
+// using GLOBAL VARIABLE (NOT recommended):
+int max;
+int max2;
+// type function names to prevent hoisting problem
+void init_variables();
+void input_and_max();
+void print();
+
 int main()
 {
-
+  init_variables();
+  input_and_max();
+  print();
   return 0;
 }
+
+void print()
+{
+  printf("the first max is %d and the second one is %d", max, max2);
+}
+
+void input_and_max()
+{
+  int n;
+  scanf("%d", &n);
+  for(int i = 0; i < n; i++)
+  {
+    int num;
+    scanf("%d", &num);
+    if(num > max2)
+    {
+      if(num > max)
+      {
+        max = num;
+      }
+      else
+      {
+        max2 = num;
+      }
+    }
+  }
+}
+
+void init_variables()
+{
+  // get the value from <limit.h> library
+  max = INT_MIN;
+  max2 = INT_MIN;
+}
+*/
+
+/*
+//// SWAP
+void swap(int x , int y);
+
+int main()
+{
+  int x , y;
+  puts("add two numbers: ");
+  scanf("%d", &x);
+  scanf("%d", &y);
+  printf("1) x = %d and y = %d\n", x , y); // 1) x = 12 and y = 32
+  swap(x,y);
+  printf("4) x = %d and y = %d\n", x , y); // 4) x = 12 and y = 32
+  return 0;
+}
+
+void swap(int x , int y)
+{
+  printf("2) x = %d and y = %d\n", x , y); // 2) x = 12 and y = 32
+  int temp = x;
+  x = y;
+  y = temp;
+  printf("3) x = %d and y = %d\n", x , y); // 3) x = 32 and y = 12
+}
+*/
+
+/*
+//// STORAGE CLASSES
+// auto != static
+void count();
+
+int main()
+{
+  count(); // counter is 1
+           // counter two is 1
+  count(); // counter is 1
+           // counter two is 2
+  return 0;
+}
+
+void count()
+{
+  int counter = 0; // auto type: also can write this way: auto int counter = 0;
+  static counter_two = 0; // static type
+  counter++;
+  counter_two++;
+  printf("counter is %d\n", counter);
+  printf("counter two is %d\n", counter_two);
+}
+*/
