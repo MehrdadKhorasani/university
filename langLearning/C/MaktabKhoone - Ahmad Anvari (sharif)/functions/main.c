@@ -187,3 +187,112 @@ void count()
   printf("counter two is %d\n", counter_two);
 }
 */
+
+/*
+//// Recursive Functions
+void f(int n)
+{
+  if(n < 0) return;
+  printf("Recursive Functions: n is %d\n", n);
+  f(n-1);
+
+}
+
+// multiply first arg in second arg:
+int recursive_mul(int a, int b)
+{
+  if (a > 1)
+  {
+    return b + recursive_mul(a - 1, b);
+  }
+  else
+  {
+    return b;
+  }
+}
+
+// factoriel:
+int factoriel(int n)
+{
+  if ((n == 1) || (n == 0))
+  {
+    return 1;
+  }
+  return n * factoriel(n - 1);
+}
+
+// power
+int power_fn(int base, int power)
+{
+  if (power == 0) return 1;
+    return base * power_fn(base,power - 1);
+}
+
+int main()
+{
+  //1
+  // f(12);
+  //2
+  // int mul_result = recursive_mul(3, 4);
+  // printf("Recursive res: %d", mul_result);
+  //3
+  // printf("%d\n", factoriel(4));
+  //4
+  printf("%d\n", power_fn(2,3));
+  return 0;
+}
+*/
+
+/*
+//// CODING CHALLENGE: FIBONACCI SEQUENCE
+
+int fibonacci(int n) {
+  if (n <= 0)
+    return -1;
+  else if (n == 1)
+    return 1;
+  else if (n == 2)
+    return 1;
+  else
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+int main() {
+  int n;
+
+  puts("Enter an integer number: ");
+  scanf("%d", &n);
+
+  int result = fibonacci(n);
+  if (result == -1)
+    printf("The number must be greater than 0\n");
+  else
+    printf("The %dth Fibonacci number: %d\n", n, result);
+
+  return 0;
+}
+*/
+
+/*
+//// CODING CHALLENGE:
+int print_reverse_numbers();
+int main()
+{
+  puts("please enter a number");
+  print_reverse_numbers();
+
+  return 0;
+}
+
+int print_reverse_numbers()
+{
+  int number;
+  scanf("%d", &number);
+  if (number == -1) return;
+
+  print_reverse_numbers();
+
+  printf("%d\n", number);
+
+}
+*/
