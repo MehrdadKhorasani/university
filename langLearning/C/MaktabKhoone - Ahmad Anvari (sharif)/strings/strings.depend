@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1723895448 source:c:\users\administrator\desktop\university\langlearning\c\maktabkhoone - ahmad anvari (sharif)\strings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
