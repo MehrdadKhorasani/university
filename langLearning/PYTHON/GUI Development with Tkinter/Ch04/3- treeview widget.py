@@ -30,4 +30,24 @@ treeview.move('item3', 'item2', '0')
 
 treeview.delete('item3')
 
+treeview.config(columns = ('version'))
+treeview.column('version', width = 50, anchor='center')
+treeview.column('#0', width = 150)
+treeview.heading('version', text= 'Version')
+treeview.set('python', 'version', '3.4.1')
+treeview.item('python', tags= ('software'))
+treeview.tag_configure('software', background='yellow')
+
+def callback(event):
+  print(treeview.selection())
+
+treeview.bind('<<TreeviewSelect>>', callback)
+
+treeview.config(selectmode= 'browse')
+treeview.config(selectmode= 'none')
+
+treeview.selection_add('python')
+treeview.selection_remove('python')
+treeview.selection_toggle('python')
+
 root.mainloop()
