@@ -1,9 +1,7 @@
-#!/usr/bin/python3
-# label.py by Barron Stone
-# This is an exercise file from Python GUI Development with Tkinter on lynda.com
-
 from tkinter import *
 from tkinter import ttk        
+import os
+
     
 root = Tk()
 
@@ -17,7 +15,13 @@ label.config(foreground = 'blue', background = 'yellow')
 label.config(font = ('Courier', 18, 'bold'))
 label.config(text = 'Howdy, Tkinter!')
 
-logo = PhotoImage(file = 'python_logo.gif') # change path to image as necessary
+####
+script_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.abspath(os.path.join(script_dir, os.pardir))
+image_path = os.path.join(parent_dir, 'python_logo.gif')
+####
+
+logo = PhotoImage(file=image_path) # change path to image as necessary
 label.config(image = logo)
 label.config(compound = 'text')
 label.config(compound = 'center')
