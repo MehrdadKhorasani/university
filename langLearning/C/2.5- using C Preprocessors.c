@@ -5,7 +5,7 @@
 int main()
 {
     printf(GREETING);
-    for(int a=0;a<b;a++){
+    for(int a=0;a<COUNT;a++){
         printf("I must do this %d times\n", COUNT);
         if(a==9)
             break;
