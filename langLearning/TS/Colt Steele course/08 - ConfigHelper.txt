@@ -1,0 +1,38 @@
+// for compile ts file:
+// tsc "file-name"
+
+// for add ts configure to a project:
+// tsc --init
+
+// for watch a project:
+// tsc -w "file-name" || tsc --watch "file-name"
+
+// Working with multiple files:
+// tsc 
+// note: as long as all the files are located in the same folder, this single word compile all of them
+
+// for watch multiple files in the same time:
+// tsc -w || tsc --watch
+// note: again, without the names of the files
+///////////////////////////
+// options for compile specific files:
+// 1.files:
+// in the tsconfig.json: "files": ["file1.ts", "file2.ts", ...]
+// 2. include:
+// in the tsconfig.json: "include": ["src"] // all the files in src directory
+// 3. exclude:
+// in the tsconfig.json: "exclude": ["file1.ts"] // everything except this array included.
+///////////////////////////
+// outdir: where to compile the ts files
+// in the tsconfig.json:
+// "outDir": "./dist" // or whereever you want
+
+///////////////////////////
+//target: set the js language version:
+// in the tsconfig.json:
+// "target": "es5" 
+
+///////////////////////////
+// strict:
+// in the tsconfig.json:
+// "strict": true
