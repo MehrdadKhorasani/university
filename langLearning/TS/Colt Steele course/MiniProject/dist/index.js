@@ -42,15 +42,38 @@ const btn = document.getElementById("btn");
 const input = document.getElementById("todoinput");
 const form = document.querySelector("form");
 const list = document.getElementById("todolist");
+const todos = readTodos();
+todos.forEach(createTodoElement);
+function readTodos() {
+    const todosJSON = localStorage.getItem("todos");
+    if (todosJSON === null)
+        return [];
+    return JSON.parse(todosJSON);
+}
 form.addEventListener("submit", function (e) {
     e.preventDefault();
-    const newTodoText = input.value;
+    const newTodo = {
+        text: input.value,
+        completed: false,
+    };
+    createTodoElement(newTodo);
+    todos.push(newTodo);
+    saveTodos();
+    input.value = "";
+});
+function createTodoElement(todo) {
     const newLI = document.createElement("li");
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    newLI.append(newTodoText);
+    checkbox.checked = todo.completed;
+    checkbox.addEventListener("change", function () {
+        todo.completed = checkbox.checked;
+        saveTodos();
+    });
+    newLI.append(todo.text);
     newLI.append(checkbox);
     list.append(newLI);
-    input.value = "";
-    console.log("Submitted");
-});
+}
+function saveTodos() {
+    localStorage.setItem("todos", JSON.stringify(todos));
+}
