@@ -56,3 +56,71 @@ getRandomElement<Cat>([
 // note:
 getRandomElement(["a", "v", "asd"]); // u dont need specify the type in the initialize, because all the values must be in a same type.
 getRandomElement([131, 5252, 67734, 2, 37]);
+
+///// Generics with multiple types
+function merge<T, U>(object1: T, object2: U) {
+  return {
+    ...object1,
+    ...object2,
+  };
+}
+const combo = merge({ name: "colt" }, { pets: ["blue", "elton"] });
+console.log(combo);
+// Adding type constraints:
+function mergeTheSecond<T extends object, U extends object>(
+  object1: T,
+  object2: U
+) {
+  return {
+    ...object1,
+    ...object2,
+  };
+}
+function tt<T extends number>(number: T) {
+  return number;
+}
+tt(2);
+// tt("hello"); // ERROR
+
+interface Lengthy {
+  length: number;
+}
+function printDoubleLength<T extends Lengthy>(thing: T): number {
+  return thing.length * 2;
+}
+printDoubleLength("asd");
+// printDoubleLength(234); // Error
+
+///// Default Type Parameters
+function makeEmptyArray<T = number>(): T[] {
+  return [];
+}
+const nums = makeEmptyArray();
+const bools = makeEmptyArray<boolean>();
+
+///// Generic classes
+interface Song {
+  title: string;
+  artist: string;
+}
+interface Video {
+  title: string;
+  creator: string;
+  resolution: string;
+}
+
+class Playlist<T> {
+  public queue: T[] = [];
+  add(el: T) {
+    this.queue.push(el);
+  }
+}
+
+const songs = new Playlist<Song>();
+const videos = new Playlist<Video>();
+songs.add({ title: "fly me to the moon", artist: "frank sinatra" });
+videos.add({
+  title: "interstellar",
+  creator: "Hans zimmer",
+  resolution: "1920x1280",
+});

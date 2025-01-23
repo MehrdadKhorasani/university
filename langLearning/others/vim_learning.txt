@@ -1,0 +1,109 @@
+motions:
+h = right	j = down	k = up		l = left
+12h = 12 letter to right & ...
+w = next word	b = previous word	e = end of the word 
+0 = move to the start of the line
+
+$ -> end of line
+^ -> start of the line
+. -> repeat the last command
+d+^ -> delete from current char to end of line (and tons of example with key combining)
+
+% (shift + 5) = jump to end or start of (,{,[,...
+
+i = insert mode
+a = insert mode on the following char (append)
+shift+a = insert mode after last char of line
+escape || ctrl+[ || ctrl+c = command mode
+v = visual mode 	shift+v = visual mode with new line if you copy!
+v+i+t = select content in inter tag
+v+a+t = select content in outter tag
+v + > or < = tab a certain content (also works without visual mode)
+after v mode => :sort => sort the selected line alphabetically
+
+if you want to implement a command in more than one line:
+	1. v for visual mode - select the lines you want
+	2. :
+	3. normal "your command" => :normal A;
+	WOW
+
+yy = copy a line in command mode
+yw = copy a word in command mode
+yl/y = copy current letter in command mode
+p = paste on below line
+P = paste on above line
+
+yanking and deleteing is going to the same buffer, 
+	so if you type p after delete a line, the deleted line pasted
+	or if you paste a line above a line, the next paste going to be the line that over-writed
+	
+i = insert mode
+o = inter a new line below and insert mode
+O = inter a new line above and insert mode
+x = delete the current character
+X = delete a character backward
+r = replace the current character
+dl = delete a letter
+dw = delete a word
+dd = delete a line (3dd => delete the folowing three lines).
+d% = delete from current position to end of the line
+d^ = delete from current position to start of the line
+J = join the current line with next line
+u = undo
+U = undo the changes in line
+CTRL-R = undo the undo
+ctrl+r = redo
+d+2+j = delete two line below
+
+:q
+:q!
+:w
+:wq
+
+:set number
+:set tabstop =4
+:set autoindent
+:colorscheme TAB
+:set paste
+
+:!"os commands" => :!ls
+
+:Explore
+:Vexplore
+:Sexplore
+
+gg = go to the top of the file
+G = go to the bottom of the file
+G => Go to line => 10G == go to tenth line of code
+
+Search Mode (/ or ?):
+if you hit "/" while you are in command mode,
+it found the word comes after /,
+with "n" (next) you can found other similar words
+capital "N" finds the previous similar words
+
+:split example.txt == sp example.txt = split the screen horizontally 
+:vsplit example.txt == vs example.txt = split the screen vertically
+ctrl+ww = switch between screens
+ctrl+w+arrow keys = switch between screens
+
+buffers {
+vim file1.c file2.c file3.c
+
+:ls => list of buffers
+:bn => jump to next buffer
+:bp => jump to previous buffer
+:b1 => jump to first buffer
+:b file1 => jump to buffer that named file1
+:bd => delete current buffer
+:bd! => delete current buffer by force!
+}
+
+:s/a/b = find the first "a" letter in file and replace it with "b"
+:s/a/b/g = replace all the "a" letters with "b" in current line
+:18,37s/a/b/g = replace all the "a" letters with "b" in lines between 18 to 37
+:%s/a/b/g = replace all the a with b in the entire file 
+:18,22s/^/\/\/ = comment the code between 18s line and 22s line.
+
+ctrl+g: shows the current location in the file and the file status
+ctrl+o: go back to where you came from != ctrl+i: goes forward

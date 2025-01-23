@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\Library\Library\bin\Debug\Library.exe.config
+C:\Users\Administrator\Desktop\Library\Library\bin\Debug\Library.exe
+C:\Users\Administrator\Desktop\Library\Library\bin\Debug\Library.pdb
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.exe
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.pdb
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.UserForm.resources
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.AdminForm.resources
